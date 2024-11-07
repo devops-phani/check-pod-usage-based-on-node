@@ -1,5 +1,17 @@
 # check-pod-usage-based-on-node
 
+Run remote script from curl.
+
+```
+curl -sL  https://raw.githubusercontent.com/devops-phani/check-pod-usage-based-on-node/refs/heads/main/ktop.sh | bash -s -- node1
+```
+
+Add the node name at the end of the line and execute it.
+
+```
+curl -sL  https://raw.githubusercontent.com/devops-phani/check-pod-usage-based-on-node/refs/heads/main/ktop.sh | bash -s -- 
+```
+
 ```
 vim ktop
 ```
